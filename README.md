@@ -1,34 +1,49 @@
 # Desenvolvimento Mobile Android 📱
 
-Este repositório tem como objetivo armazenar meus projetos de estudo e prática no desenvolvimento de aplicativos Android, utilizando boas práticas, metodologias e recursos atuais do ecossistema mobile.
+Este repositório tem como objetivo documentar e apresentar minha evolução nos estudos de desenvolvimento mobile utilizando **Android Studio**, com foco nas boas práticas, metodologias e ferramentas modernas.
 
-## 📂 Organização dos Projetos
+## 📂 Estrutura do Repositório
 
-Dentro da pasta **`/Aplicativos`**, estão os aplicativos desenvolvidos durante meu processo de aprendizado e aprimoramento em desenvolvimento mobile.
+Cada pasta presente neste repositório representa um aplicativo desenvolvido durante meu processo de aprendizado em desenvolvimento mobile.
 
-Cada aplicativo possui uma subpasta própria com um arquivo **README.md**, onde estão descritas:
+Por exemplo:
+- `/Simulador-Hamburgueria` → Projeto de um app simulador de pedidos de uma hamburgueria.
+- (Novos projetos serão adicionados aqui conforme avanço nos estudos)
 
-- As funcionalidades do aplicativo;
-- As tecnologias e ferramentas utilizadas;
-- As práticas e abordagens adotadas no desenvolvimento.
-
-## 🚀 Objetivo do Repositório
-
-- Registrar minha evolução como desenvolvedor mobile;
-- Demonstrar conhecimentos práticos em desenvolvimento Android;
-- Aplicar boas práticas, design patterns e utilização correta das ferramentas do Android Studio;
-- Servir como portfólio e referência dos meus estudos.
+Cada projeto possui um `README.md` próprio que explica sua finalidade, as funcionalidades desenvolvidas e as tecnologias aplicadas.
 
 ---
 
-## 📌 Estrutura de Diretórios
+## 🚀 Objetivo
 
-```plaintext
-/Aplicativos
-    /SimuladorHamburgueria
-        README.md
-        (arquivos do projeto)
-    /NomeDeOutroApp
-        README.md
-        (arquivos do projeto)
-README.md
+Manter um portfólio de projetos práticos que demonstrem minha evolução no desenvolvimento de aplicativos Android, aplicando conceitos como:
+
+- Clean Code
+- Padrões de Projeto (MVVM, Repository, etc.)
+- Uso das APIs do Android
+- Gerenciamento de estado
+- Persistência de dados com SQLite e Room
+- Consumo de APIs externas
+- Uso de bibliotecas modernas (Jetpack, Retrofit, etc.)
+
+---
+
+## 💡 Tecnologias Principais
+
+- Java / Kotlin
+- Android Studio
+- XML (para layouts)
+- Git / GitHub (versionamento)
+
+---
+
+## 📚 Cada projeto contém:
+
+- Descrição das funcionalidades
+- Tecnologias e bibliotecas utilizadas
+- Prints ou GIFs do aplicativo funcionando (quando aplicável)
+- Instruções de execução
+
+---
+
+> ⚙️ Este repositório está em constante evolução, acompanhando meu progresso nos estudos e práticas em desenvolvimento mobile Android.
