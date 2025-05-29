@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Título com padding -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:textSize="28sp"
+        android:text="HamburgueriaZ"
+        android:textStyle="bold"
+        android:textColor="#034D4A"
+        android:background="#AFE3EB"
+        android:gravity="center_vertical" />
+
+    <!-- Banner / Imagem full width, sem padding -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/hamburgueriaz"
+        android:adjustViewBounds="false"
+        android:scaleType="centerCrop" />
+
+    <!-- Container com padding para o restante do formulário -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <!-- Nome do cliente -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Faça seu Pedido!"
+            android:textStyle="bold"
+            android:padding="16dp"/>
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Seu nome:"
+            android:inputType="textPersonName" />
+
+        <!-- Adicionais -->
+        <TextView
+            style="@style/EstiloTexto"
+            android:text="Adicionais:"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbBacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bacon (+ R$2,00)" />
+
+        <CheckBox
+            android:id="@+id/cbCheddar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheddar (+ R$2,00)" />
+
+        <CheckBox
+            android:id="@+id/cbPicles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Picles (+ R$3,00)" />
+
+        <!-- Quantidade -->
+        <TextView
+            style="@style/EstiloTexto"
+            android:id="@+id/txtQuantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade: 1"
+            android:textStyle="bold"/>
+
+        <!-- Botões de quantidade -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="−" />
+
+            <Button
+                android:id="@+id/btnMais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+" />
+        </LinearLayout>
+
+        <!-- Preço total -->
+        <TextView
+            style="@style/EstiloTexto"
+            android:id="@+id/txtPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preço total: R$ 10,00"
+            android:textStyle="bold" />
+
+        <!-- Botão Enviar -->
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar Pedido" />
+    </LinearLayout>
+
+</LinearLayout>
